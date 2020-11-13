@@ -1,1 +1,27 @@
-blank
+package interm;
+
+public class math {
+
+	public static void main(String[] args) {
+		
+		//Variables
+		double num1 = 30.55;
+		double num2 = 10.5;
+		double product = (num1 * num2);
+		double sum = num1 + num2;
+		double difference = num1 - num2;
+		double quotient = num1 / num2;
+		
+		//num1 num2 display
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+		
+		// Math Operations
+        System.out.println("Addition = " + sum);
+        System.out.println("Difference = " + difference);
+		System.out.println("Multiplication = " + product);
+		System.out.println("Division = " + quotient);
+
+	}//end of main
+
+}//end of class
